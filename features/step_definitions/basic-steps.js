@@ -11,3 +11,7 @@ Given('I visit the site', async function() {
 Then("I should see {string}", async function(content) {
 	return await this.pageHasTextContent(content)
 });
+
+When('I click on {string}', async function (btnName) {
+	return await this.clickOnBtn(btnName)
+});

@@ -6,3 +6,4 @@ Feature: User can play a game of Rock Paper Scissors
     Scenario:
 			Given I visit the site
 			Then I should see "Rock Paper Scissors"
+      When I click on "Rock"
