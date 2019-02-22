@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+.choices {
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
